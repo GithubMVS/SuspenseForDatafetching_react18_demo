@@ -1,0 +1,24 @@
+.container_full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: var(--font-family-Montreal);
+  color: var(--colorBlack);
+  padding: 2.5rem
+}

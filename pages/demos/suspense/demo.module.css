@@ -1,0 +1,101 @@
+.suspenseDemo_full {
+  height: 100vh;
+  padding: 0rem 20rem;
+  background-color: var(--backgroundColor);
+}
+
+.goBack__full {
+  display: flex;
+  align-items: center;
+  padding: 5rem 0rem;
+}
+
+.links_learnMore {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--colorPurple);
+  padding-left: 1.5rem;
+}
+
+.title {
+  font-size: 5rem;
+  font-family: var(--font-family-Inter);
+  font-weight: 700;
+  color: var(--colorBlack);
+  padding-bottom: 7.5rem;
+}
+
+.suspenseDemo_full_article {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.article_title {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6.5rem;
+  font-family: var(--font-family-Inter);
+  padding-bottom: 3rem;
+  color: var(--colorBlack);
+}
+
+.explenationText {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  font-family: var(--font-family-Inter);
+  padding: 3rem 0rem;
+  color: #888C98;
+  width: 90%;
+}
+
+.why_group_full {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: var(--font-family-Inter);
+}
+
+.why_group_title {
+  color: var(--colorPurple);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+.why_group_text {
+  color: #888C98;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  width: 80%;
+}
+
+.commentData_full {
+  background-color: #FFFFFF;
+  padding: 3rem 3rem 0rem 3rem;
+}
+
+.commentData_full_title {
+  color: var(--colorPurple);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-family: var(--font-family-Inter);
+  padding-bottom: 2rem;
+}
+
+.commentData_full_title::before {
+  content: "";
+  position: absolute;
+  width: 4.35rem;
+  background: var(--colorPurple);
+  height: .2rem;
+  margin-top: 3.5rem;
+  border-radius: 5rem;
+}
+
+.list {}
+
+.list_item {}

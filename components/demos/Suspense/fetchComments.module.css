@@ -1,0 +1,35 @@
+.allData {
+  font-family: var(--font-family-Inter);
+  height: 650px;
+  overflow-y: auto;
+  float: left;
+  position: relative;
+}
+
+.allData_group_mail {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: var(--colorBlack);
+}
+
+.allData_group_name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  padding: .5rem 0rem 1rem 0rem;
+  color: var(--colorBlack);
+}
+
+.allData_group_description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #989393;
+}
+
+.allData_group {
+  border-bottom: .05rem solid #A19DA8;
+  padding-bottom: 3rem;
+  margin: 3rem 0rem;
+}

@@ -1,0 +1,9 @@
+:root {
+  --backgroundColor: #F8F9FD;
+  --colorPurple: #9055FF;
+  --colorBlack: #16161E;
+  --colorGrey: #ADB1BD;
+
+  --font-family-Montreal: Neue Montreal, Helvetica, sans-serif, Arial;
+  --font-family-Inter: Inter, Helvetica, sans-serif, Arial;
+}
