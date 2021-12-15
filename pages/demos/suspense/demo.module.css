@@ -96,6 +96,55 @@
   border-radius: 5rem;
 }
 
-.list {}
+@media screen and (max-width: 1280px) {
+  .suspenseDemo_full {
+    padding: 0rem 10rem;
+  }
 
-.list_item {}
+  .suspenseDemo_full_article {
+    grid-template-columns: 1fr;
+    grid-row-gap: 5rem;
+  }
+
+  .commentData_full {
+    padding: 0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .suspenseDemo_full {
+    padding: 0rem 5rem;
+  }
+
+  .suspenseDemo_full_article {
+    grid-row-gap: 15rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .suspenseDemo_full {
+    padding: 0rem 3rem;
+  }
+
+  .article_title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .explenationText {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0rem;
+    width: 95%;
+  }
+
+  .why_group_full {
+    grid-template-columns: 1fr;
+    grid-row-gap: 3rem;
+    margin: 3rem 0rem
+  }
+
+  .suspenseDemo_full_article {
+    grid-row-gap: 5rem;
+  }
+}
