@@ -1,3 +1,10 @@
+## Add node_modules
+Before copying this demo don't forget to add the node_modules
+How?
+- npm install
+OR
+- yarn install
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
